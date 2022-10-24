@@ -15,6 +15,8 @@ Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
 - Create folder (Criar uma pasta chamada ```/output``` e outra com o nome do seu conjunto de dados. Este nome irá definir o nome da tabela criada no Glue)
 - Upload dos arquivos de dados localizados na pasta ```/data```
 
+![Envio de Arquivo para o S3](./img/envio_csv_s3.PNG)
+
 #### Criar Glue Crawler
 
 - Amazon Glue Console -> Crawlers -> Add Crawler
@@ -27,12 +29,16 @@ Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
 - Finish
 - Databases -> Tables -> Visualizar dados das tabelas criadas
 
+![Tabela criada](./img/criacao_crawler_glue.PNG)
+
 ### Criar aplicação no Amazon Athena
 
 - Query editor -> Settings -> Manage settings -> Query result location and encryption -> Browse S3 -> selecionar o bucket criado
-- Selecionar Database -> criar queries (exemplos na pasta ```/src```)
+- Selecionar Database -> criar queries (exemplos na pasta ```/sql```)
 - Verificar queries não salvas no bucket criado no S3
-- Salavar queries -> Executar novamente -> Verificar no bucket criado no S3
+- Salvar queries -> Executar novamente -> Verificar no bucket criado no S3
+
+![Queries Salvas](./img/queries_salvas_athena.PNG)
 
 #### Criando nova tabela
 
