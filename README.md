@@ -1,4 +1,4 @@
-# Desafio Explorando Dados Demográficos com Serviços de Big Data na AWS (Amazon Athena)
+# Desafio DIO: Explorando Dados Demográficos com Serviços de Big Data na AWS (Amazon Athena)
 Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
 
 ### Serviços utilizados nessa atividade prática
