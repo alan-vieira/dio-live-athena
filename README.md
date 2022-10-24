@@ -53,6 +53,8 @@ Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
 - Select database -> select table -> Edit or preview -> Save & visualize
 - Criar visualizações selecionando colunas, criando filtros e parâmetros e selecionando Visual types para gráficos.
 
+![Dashboard Amazon QuickSight](./img/dashboard_athena.png)
+
 ### Eliminar recursos
  - Exluir os elementos criados
 
